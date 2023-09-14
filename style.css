@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+.desktop {
+  width: 1440px;
+  height: 1716px;
+  background: #faf8f6;
+  position: relative;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 63px 165px 67px;
+  align-items: center;
+}
+.logo {
+  width: 81px;
+  flex-shrink: 0;
+}
+.requestTop {
+  width: 219px;
+  height: 56px;
+  color: #172339;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.16px;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid #172339;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.requestTop:hover {
+  background: var(--Dark-Blue, #172339);
+  color: #faf8f6;
+}
+.superSolutionBlock {
+  display: flex;
+  margin: 0 165px;
+  position: relative;
+}
+.imgMob {
+  width: 350px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  position: absolute;
+  left: 474px;
+  z-index: 2;
+}
+.imgMobMobile{
+  display: none;
+}
+.superSolutionTextBlock {
+  width: 635px;
+  position: absolute;
+  z-index: 3;
+  top: 103px;
+}
+.superSolutionText {
+  color: #172339;
+
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 78px;
+  letter-spacing: -1px;
+}
+.ourMarketingBlock {
+  width: 350px;
+  color: #49566d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  margin-top: 40px;
+}
+.requestLeft {
+  display: flex;
+  width: 256px;
+  height: 61px;
+  border-radius: 6px;
+  background: #172339;
+  justify-content: center;
+  align-items: center;
+  color: #faf8f6;
+  text-decoration: none;
+  margin-top: 52px;
+}
+.requestLeft:hover {
+  background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+}
+.number2kBlock,
+.number8Block,
+.number12Block {
+  width: 190px;
+  position: absolute;
+  right: 0;
+}
+.number {
+  color: #172339;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+}
+.text {
+  color: #49566d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+}
+.number2kBlock {
+  top: 106px;
+}
+.number8Block {
+  top: 252px;
+}
+.number12Block {
+  top: 398px;
+}
+.line1 {
+  width: 287px;
+  height: 36px;
+  stroke-width: 2px;
+  stroke: var(--Dark-Blue, #172339);
+  position: absolute;
+  left: 289px;
+  top: 45px;
+  z-index: 5;
+}
+.bottomBlock {
+  width: 1109px;
+  height: 545px;
+  border-radius: 15px;
+  background: #172339;
+  position: absolute;
+  bottom: 200px;
+  left: 167px;
+  z-index: 2;
+}
+.imgBlock {
+  width: 360px;
+  height: 590px;
+  position: absolute;
+  left: 121px;
+  bottom: 0;
+}
+.bottomTextBlock {
+  width: 350px;
+  height: 369px;
+  position: absolute;
+  right: 125px;
+  top: 88px;
+  
+}
+.textBottom {
+  color: #f3ede7;
+}
+.itJustWorks {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  padding-bottom: 40px;
+}
+.iReallyLike {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1px;
+}
+.jr {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  padding-top: 40px;
+}
+.CMO {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+}
+.imgBlur{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+.imgCurved{
+    width: 64px;
+height: 52px;
+stroke-width: 2px;
+stroke: #FAF8F6;
+position: absolute;
+left: 517px;
+top: 161px;
+}
+.footer{
+  position: absolute;
+  bottom: 72px;
+  left: 167px;
+  width: 1109px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright{
+  color: #49566D;
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.083px;
+}
+.social{
+  width: 116px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.socialIcon:hover{
+  filter: invert(1);
+}
+.footerBlock{
+  width: 1440px;
+height: 464px;
+background: var(--Cream, #F3EDE7);
+position: absolute;
+bottom: 0;
+z-index: 1;
+}
+
+

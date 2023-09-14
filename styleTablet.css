@@ -1,0 +1,110 @@
+@media screen and (max-width: 1000px) {
+  .desktop {
+    width: 768px;
+    height: 1962px;
+      }
+  .header {
+    padding: 40px;
+  }
+  .superSolutionBlock {
+    margin: 40px;
+  }
+  .imgMob {
+    width: 281px;
+    height: 482px;
+    left: 407px;
+  }
+  .superSolutionTextBlock {
+    width: 500px;
+    
+  }
+  .superSolutionText {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0,8px;
+  }
+  .ourMarketingBlock {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.089px;
+  }
+  .requestLeft {
+    margin-top: 40px;
+  }
+  
+  .number2kBlock,
+  .number8Block,
+  .number12Block {
+    width: 223px;
+    top: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .number2kBlock {
+    left: 0;
+  }
+  .number8Block {
+    left: 232px;
+  }
+  .number12Block {
+    left: 465px;
+  }
+  .line1 {
+    width: 231px;
+    left: 222px;
+    top: 42px;
+  }
+  .bottomBlock {
+    width: 689px;
+    height: 684px;
+    bottom: 176px;
+    left: 40px;
+  }
+  .imgBlock {
+    width: 252px;
+    height: 402px;
+    left: 228px;
+    bottom: 463px;
+  }
+  .bottomTextBlock {
+    width: 573px;
+    height: 282px;
+    right: 58px;
+    top: 338px;
+    text-align: center;
+  }
+  .itJustWorks {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+  }
+  .iReallyLike {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.09px;
+  }
+  .imgBlur {
+    width: 500px;
+    height: 350px;
+    top: -65px;
+    left: 100px;
+    filter: brightness(70%);
+  }
+  .imgCurved {
+    width: 49px;
+    height: 40px;
+    left: 320px;
+    top: 261px;
+  }
+  .footer {
+    bottom: 72px;
+    left: 40px;
+    width: 689px;
+    height: 32px;
+  }
+  .footerBlock {
+    width: 768px;
+    height: 640px;
+  }
+}
